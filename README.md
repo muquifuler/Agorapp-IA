@@ -6,13 +6,13 @@ La IA se encarga de modificar todas las propuestas para eliminar cualquier sesgo
 ![Captura de pantalla 2023-08-13 002114](https://github.com/muquifuler/Agorapp/assets/57547835/80760e28-2213-4873-93a2-c6d09e9f1320)
 ![Captura de pantalla 2023-08-13 002146](https://github.com/muquifuler/Agorapp/assets/57547835/655ddf99-1186-44a8-855a-d77157fcfb2b)
 
-# Propuestas
+- Propuestas
 
 Interactúa con la IA y selecciona aquellas propuestas que más te interesen, para formular preguntas relevantes sobre las mismas, o haz una pregunta en general sobre todas ellas.
 
 ![Captura de pantalla 2023-08-13 002205](https://github.com/muquifuler/Agorapp/assets/57547835/5b08b53f-7ae1-4c1a-8969-1fc4fa22bb9b)
 
-# Test de afinidad
+- Test de afinidad
 
 Responde a la propuesta seleccionando una de las cinco opciones disponibles. Además la IA puede ayudarte con una explicación.
 
