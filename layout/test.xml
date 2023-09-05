@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".Choose">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/viewResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/results" />
+
+            <Button
+                android:id="@+id/btnIA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ia" />
+
+            <TextView
+                android:id="@+id/resPartido"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="0"
+                android:background="@color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/ignoreString"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/nextBtn"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:contentDescription="@string/howworks_label"
+                android:minHeight="48dp"
+                android:rotationY="180"
+                android:src="?attr/actionModeCloseDrawable"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textPregunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/maven_pro_medium"
+                    android:padding="30dp"
+                    android:text="@string/pregunta"
+                    android:textColor="@color/text"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/generandoRes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maven_pro_medium"
+                    android:padding="30dp"
+                    android:text="@string/generando"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textExplainPregunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maven_pro_medium"
+                    android:padding="30dp"
+                    android:text="@string/ignoreString"
+                    android:textColor="@color/text"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <Button
+                android:id="@+id/muyacuerdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn2"
+                android:backgroundTint="@color/mbien"
+                android:text="@string/muyDeAcuerdo"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/acuerdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn2"
+                android:backgroundTint="@color/bien"
+                android:text="@string/deAcuerdo"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/nose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn2"
+                android:backgroundTint="@color/regular"
+                android:text="@string/NoEstoySeguro"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/desacuerdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn2"
+                android:backgroundTint="@color/mal"
+                android:text="@string/enDesAcuerdo"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/muydesacuerdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn2"
+                android:backgroundTint="@color/mmal"
+                android:text="@string/muyEnDesAcuerdo"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
