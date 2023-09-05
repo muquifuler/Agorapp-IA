@@ -1,6 +1,7 @@
 # Agorapp
 
 Desarrolla tu criterio político de forma imparcial y objetiva con el apoyo de la IA.
+
 La IA se encarga de modificar todas las propuestas para eliminar cualquier sesgo político. Al utilizar esta herramienta, podrás acceder a información neutral y equitativa, fomentando un pensamiento crítico.
 
 ![Captura de pantalla 2023-08-13 002114](https://github.com/muquifuler/Agorapp/assets/57547835/80760e28-2213-4873-93a2-c6d09e9f1320)
