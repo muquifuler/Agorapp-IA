@@ -1,4 +1,4 @@
-# Agorapp
+# Agorapp - Mobile android app
 
 Desarrolla tu criterio político de forma imparcial y objetiva con el apoyo de la IA.
 
